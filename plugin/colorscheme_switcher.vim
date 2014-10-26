@@ -119,7 +119,6 @@ function! s:HourColor()
   echo g:colors_name
 endfunction
 
-
 if exists('g:mycolors')
   let s:mycolors = g:mycolors
 endif
