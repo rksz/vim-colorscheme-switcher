@@ -121,5 +121,5 @@ endfunction
 
 
 if exists('g:mycolors')
-  let s:mycolors = split(g:mycolors)
+  let s:mycolors = g:mycolors
 endif
