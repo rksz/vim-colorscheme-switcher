@@ -121,5 +121,5 @@ endfunction
 
 
 if exists('g:mycolors')
-  call s:SetColors('g:mycolors')
+  let s:mycolors = split('g:mycolors')
 endif
