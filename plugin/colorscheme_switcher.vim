@@ -18,9 +18,6 @@ endif
 let loaded_setcolors = 1
 
 let s:mycolors = ['slate', 'torte', 'darkblue', 'delek', 'murphy', 'elflord', 'pablo', 'koehler']  " colorscheme names that we use to set color
-if exists('g:mycolors')
-  call s:SetColors('g:mycolors')
-endif
 
 " Set list of color scheme names that we will use, except
 " argument 'now' actually changes the current color scheme.
@@ -121,3 +118,8 @@ function! s:HourColor()
   redraw
   echo g:colors_name
 endfunction
+
+
+if exists('g:mycolors')
+  call s:SetColors('g:mycolors')
+endif
